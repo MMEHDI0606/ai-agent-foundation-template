@@ -1,0 +1,6 @@
+NEXUS MEMORY RULES
+
+1) Always load `claude.md`, `skills.md`, `.github/copilot-instructions.md`, and `.planning/` context before work.
+2) Treat this repository as persistent execution memory across chat resets.
+3) Keep all new operational capabilities documented in `skills.md`.
+4) Keep project architecture constraints current in `claude.md`.

@@ -1,0 +1,82 @@
+[
+
+{"name":"gsd","keywords":["gsd","productivity","concentration","done"],"version":"0.0.3","description":"Respecting the art of getting stuff done.","sanitized_name":"gsd","publisher":{"email":"mohamedhayibor@gmail.com","username":"mohamedhayibor"},"maintainers":[{"email":"mohamedhayibor@gmail.com","username":"mohamedhayibor"}],"license":"MIT","date":"2016-04-02T13:26:40.750Z","links":{"homepage":"https://github.com/mohamedhayibor/gsd#readme","repository":"git+https://github.com/mohamedhayibor/gsd.git","bugs":"https://github.com/mohamedhayibor/gsd/issues","npm":"https://www.npmjs.com/package/gsd"}}
+
+,
+
+{"name":"gsd-opencode","keywords":["opencode","ai","meta-prompting","context-engineering","spec-driven-development"],"version":"1.20.2","description":"GSD-OpenCode distribution manager - install, verify, and maintain your GSD-OpenCode installation","sanitized_name":"gsd-opencode","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:91358b5d-2ff7-4139-a7ea-98ac0a76e9e3","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"rokicool@gmail.com","username":"rokicool"}],"license":"MIT","date":"2026-02-28T05:40:02.775Z","links":{"homepage":"https://github.com/rokicool/gsd-opencode#readme","repository":"git+https://github.com/rokicool/gsd-opencode.git","bugs":"https://github.com/rokicool/gsd-opencode/issues","npm":"https://www.npmjs.com/package/gsd-opencode"}}
+
+,
+
+{"name":"@gsd-now/gsd","keywords":["gsd","ai","agents","automation","cli"],"version":"0.1.0","description":"GSD CLI - Get Sh*** Done with AI agents.","sanitized_name":"@gsd-now/gsd","publisher":{"email":"robert.balicki@gmail.com","username":"rbalicki"},"maintainers":[{"email":"robert.balicki@gmail.com","username":"rbalicki"}],"license":"MIT","date":"2026-02-23T22:47:06.208Z","links":{"homepage":"https://github.com/rbalicki2/gsd#readme","repository":"git+https://github.com/rbalicki2/gsd.git","bugs":"https://github.com/rbalicki2/gsd/issues","npm":"https://www.npmjs.com/package/@gsd-now/gsd"}}
+
+,
+
+{"name":"@tekyzinc/gsd-t","keywords":["claude-code","gsd","ai-development","agent-teams","contract-driven-development","slash-commands"],"version":"2.31.18","description":"GSD-T: Contract-Driven Development for Claude Code GÇö 46 slash commands with backlog management, impact analysis, test sync, milestone archival, and PRD generation","sanitized_name":"@tekyzinc/gsd-t","publisher":{"email":"david@tekyz.com","username":"dmhirschfeld"},"maintainers":[{"email":"david@tekyz.com","username":"dmhirschfeld"},{"email":"gayathri@tekyz.com","username":"gborker"}],"license":"MIT","date":"2026-02-24T21:47:13.475Z","links":{"homepage":"https://github.com/Tekyz-Inc/get-stuff-done-teams#readme","repository":"git+https://github.com/Tekyz-Inc/get-stuff-done-teams.git","bugs":"https://github.com/Tekyz-Inc/get-stuff-done-teams/issues","npm":"https://www.npmjs.com/package/@tekyzinc/gsd-t"}}
+
+,
+
+{"name":"@luutuankiet/gsd-reader","keywords":["gsd-lite","worklog","markdown","viewer","live-reload"],"version":"0.2.13","description":"Interactive Worklog Reader for GSD-Lite WORK.md files with live reload","sanitized_name":"@luutuankiet/gsd-reader","publisher":{"email":"luutuankiet.ftu2@gmail.com","username":"kenluu"},"maintainers":[{"email":"luutuankiet.ftu2@gmail.com","username":"kenluu"}],"license":"MIT","date":"2026-02-24T13:26:13.429Z","links":{"homepage":"https://github.com/luutuankiet/gsd-lite#readme","repository":"git+https://github.com/luutuankiet/gsd-lite.git","bugs":"https://github.com/luutuankiet/gsd-lite/issues","npm":"https://www.npmjs.com/package/@luutuankiet/gsd-reader"}}
+
+,
+
+{"name":"gsd-antigravity-kit","keywords":["antigravity","gsd","automation","skills"],"version":"1.21.1","description":"Installer for GSD-Antigravity skills","sanitized_name":"gsd-antigravity-kit","publisher":{"email":"dogan.turkuler@gmail.com","username":"doganturkuler"},"maintainers":[{"email":"dogan.turkuler@gmail.com","username":"doganturkuler"}],"license":"MIT","date":"2026-02-27T20:17:50.428Z","links":{"npm":"https://www.npmjs.com/package/gsd-antigravity-kit"}}
+
+,
+
+{"name":"gsd-vscode-copilot","keywords":["gsd","get-shit-done","vscode","copilot","github-copilot","planning","spec-driven-development","context-engineering"],"version":"1.2.0","description":"GSD workflow for VS Code + GitHub Copilot. Lightweight planning, execution, and verification system.","sanitized_name":"gsd-vscode-copilot","publisher":{"email":"menno.saey@seafar.eu","username":"pushtoprodgy"},"maintainers":[{"email":"menno.saey@seafar.eu","username":"pushtoprodgy"}],"license":"MIT","date":"2026-01-27T09:32:22.411Z","links":{"homepage":"https://www.npmjs.com/package/gsd-vscode-copilot","repository":"git+https://github.com/YOUR_ORG/gsd-vscode-copilot.git","bugs":"https://github.com/YOUR_ORG/gsd-vscode-copilot/issues","npm":"https://www.npmjs.com/package/gsd-vscode-copilot"}}
+
+,
+
+{"name":"get-shit-done-reflect-cc","keywords":["claude","claude-code","ai","meta-prompting","context-engineering","spec-driven-development","gemini","gemini-cli","knowledge-base","signal-tracking","self-improving","reflection","gsd-reflect"],"version":"1.15.6","description":"A self-improving AI coding system that learns from its mistakes. Built on GSD by TACHES.","sanitized_name":"get-shit-done-reflect-cc","publisher":{"email":"npm-oidc-no-reply@github.com","trustedPublisher":{"oidcConfigId":"oidc:9c62cfe5-ad03-467e-b853-be21762bc543","id":"github"},"username":"GitHub Actions"},"maintainers":[{"email":"logansrooks@gmail.com","username":"glutenfreebread"}],"license":"MIT","date":"2026-02-26T23:59:25.502Z","links":{"homepage":"https://github.com/loganrooks/get-shit-done-reflect","repository":"git+https://github.com/loganrooks/get-shit-done-reflect.git","bugs":"https://github.com/loganrooks/get-shit-done-reflect/issues","npm":"https://www.npmjs.com/package/get-shit-done-reflect-cc"}}
+
+,
+
+{"name":"@david-xpn/gsd-pm","keywords":["claude","claude-code","ai","meta-prompting","context-engineering","spec-driven-development","gemini","gemini-cli"],"version":"1.18.6","description":"A meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode and Gemini. Fork of gsd-pm-cc by T+éCHES.","sanitized_name":"@david-xpn/gsd-pm","publisher":{"email":"david@xpn.ai","username":"david-xpn"},"maintainers":[{"email":"david@xpn.ai","username":"david-xpn"}],"license":"MIT","date":"2026-02-18T13:01:51.925Z","links":{"homepage":"https://github.com/davidmz/gsd-pm","repository":"git+https://github.com/davidmz/gsd-pm.git","bugs":"https://github.com/davidmz/gsd-pm/issues","npm":"https://www.npmjs.com/package/@david-xpn/gsd-pm"}}
+
+,
+
+{"name":"tdd-claude-code","keywords":["claude","claude-code","tdd","test-driven-development","gsd"],"version":"0.5.0","description":"TDD workflow for Claude Code - wraps GSD","sanitized_name":"tdd-claude-code","publisher":{"email":"hi@jurgencalleja.com","username":"jurgencalleja"},"maintainers":[{"email":"hi@jurgencalleja.com","username":"jurgencalleja"}],"license":"MIT","date":"2026-01-24T23:54:26.028Z","links":{"homepage":"https://github.com/jurgencalleja/tdd#readme","repository":"git+https://github.com/jurgencalleja/tdd.git","bugs":"https://github.com/jurgencalleja/tdd/issues","npm":"https://www.npmjs.com/package/tdd-claude-code"}}
+
+,
+
+{"name":"get-shit-done-cc-ui","keywords":["claude","ai","cli","gsd","terminal","ui"],"version":"0.2.9","description":"GSD-UI - Visual panel for Claude Code terminal workflows","sanitized_name":"get-shit-done-cc-ui","publisher":{"email":"glenninizan@gmail.com","username":"kaenn"},"maintainers":[{"email":"glenninizan@gmail.com","username":"kaenn"}],"license":"AGPL-3.0","date":"2026-01-28T03:37:16.086Z","links":{"homepage":"https://github.com/Kaenn/get-shit-done-cc-ui#readme","repository":"git+https://github.com/Kaenn/get-shit-done-cc-ui.git","bugs":"https://github.com/Kaenn/get-shit-done-cc-ui/issues","npm":"https://www.npmjs.com/package/get-shit-done-cc-ui"}}
+
+,
+
+{"name":"gsd-trae","keywords":["gsd","trae","gsd-trae","get-shit-done-trae","ai","workflow","project-management"],"version":"1.0.1","description":"GSD (Get Shit Done) framework adapter for Trae IDE","sanitized_name":"gsd-trae","publisher":{"email":"1806234223@qq.com","username":"lionad"},"maintainers":[{"email":"1806234223@qq.com","username":"lionad"}],"license":"MIT","date":"2026-02-26T08:45:40.114Z","links":{"homepage":"https://github.com/Lionad-Morotar/get-shit-done-trae#readme","repository":"git+https://github.com/Lionad-Morotar/get-shit-done-trae.git","bugs":"https://github.com/Lionad-Morotar/get-shit-done-trae/issues","npm":"https://www.npmjs.com/package/gsd-trae"}}
+
+,
+
+{"name":"ml-gsd","keywords":["Global Spectra Deconvolution","peak","picking","optimization","gsd"],"version":"13.1.1","description":"Global Spectral Deconvolution","sanitized_name":"ml-gsd","publisher":{"email":"bot+npm-mljs@zakodium.com","username":"mljs-bot"},"maintainers":[{"email":"kostro.d@gmail.com","username":"stropitek"},{"email":"npm@secmail.targos.dev","username":"targos"},{"email":"luc@patiny.com","username":"lpatiny"},{"email":"bot+npm-mljs@zakodium.com","username":"mljs-bot"},{"email":"bot+npm-cheminfo@zakodium.com","username":"cheminfo-bot"},{"email":"maasencioh@gmail.com","username":"maasencioh"},{"email":"jeffersonh44@gmail.com","username":"jeffersonh44"},{"email":"andcastillo@gmail.com","username":"andcastillo"},{"email":"jose.bolanos@correounivalle.edu.co","username":"jobo322"}],"license":"MIT","date":"2025-11-19T13:36:05.615Z","links":{"homepage":"https://github.com/mljs/global-spectral-deconvolution","repository":"git+https://github.com/mljs/global-spectral-deconvolution.git","bugs":"https://github.com/mljs/global-spectral-deconvolution/issues","npm":"https://www.npmjs.com/package/ml-gsd"}}
+
+,
+
+{"name":"@digitalist/conventions","keywords":["conventions","gsd","claude-code","claude","ai-conventions","llm-coding","coding-standards","digitalist"],"version":"1.0.1","description":"Organizational coding conventions for Claude/GSD AI-assisted development","sanitized_name":"@digitalist/conventions","publisher":{"email":"fabian.von.tiedemann@digitalist.se","username":"fabian-von-tiedemann"},"maintainers":[{"email":"fabian.von.tiedemann@digitalist.se","username":"fabian-von-tiedemann"}],"license":"MIT","date":"2026-01-26T13:42:27.650Z","links":{"homepage":"https://github.com/digitalist-se/digitalist-conventions#readme","repository":"git+https://github.com/digitalist-se/digitalist-conventions.git","bugs":"https://github.com/digitalist-se/digitalist-conventions/issues","npm":"https://www.npmjs.com/package/@digitalist/conventions"}}
+
+,
+
+{"name":"@chude/get-stuff-done","keywords":["claude","claude-code","ai","meta-prompting","context-engineering","spec-driven-development","gemini","gemini-cli","mistral-vibe","vibe-cli"],"version":"2.3.0","description":"A meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode and Gemini. Fork of GSD by TACHES.","sanitized_name":"@chude/get-stuff-done","publisher":{"email":"chude@emeke.org","username":"chude"},"maintainers":[{"email":"chude@emeke.org","username":"chude"}],"license":"MIT","date":"2026-02-24T10:53:14.086Z","links":{"homepage":"https://github.com/chudeemeke/get-stuff-done","repository":"git+https://github.com/chudeemeke/get-stuff-done.git","bugs":"https://github.com/chudeemeke/get-stuff-done/issues","npm":"https://www.npmjs.com/package/@chude/get-stuff-done"}}
+
+,
+
+{"name":"gsd-teams","keywords":["claude","claude-code","ai","meta-prompting","context-engineering","spec-driven-development","gemini","gemini-cli","teams","collaboration"],"version":"1.0.4","description":"Team extension for Get Shit Done - multiple developers working on the same project without stepping on each other.","sanitized_name":"gsd-teams","publisher":{"email":"axth@syncable.dev","username":"alexthh"},"maintainers":[{"email":"axth@syncable.dev","username":"alexthh"}],"license":"MIT","date":"2026-02-04T10:50:45.794Z","links":{"homepage":"https://github.com/Alex793x/gsd-teams","repository":"git+https://github.com/Alex793x/gsd-teams.git","bugs":"https://github.com/Alex793x/gsd-teams/issues","npm":"https://www.npmjs.com/package/gsd-teams"}}
+
+,
+
+{"name":"gsd-codex-cli","keywords":["codex","claude","claude-code","ai","meta-prompting","context-engineering","spec-driven-development"],"version":"1.20.13","description":"Codex-native package for the get-shit-done workflow with native subagent orchestration.","sanitized_name":"gsd-codex-cli","publisher":{"email":"ahmed118@aucegypt.edu","username":"ahmed118glitch"},"maintainers":[{"email":"ahmed118@aucegypt.edu","username":"ahmed118glitch"}],"license":"MIT","date":"2026-02-23T07:21:11.110Z","links":{"homepage":"https://github.com/redstar1337/get-shit-done-codex","repository":"git+https://github.com/redstar1337/get-shit-done-codex.git","bugs":"https://github.com/redstar1337/get-shit-done-codex/issues","npm":"https://www.npmjs.com/package/gsd-codex-cli"}}
+
+,
+
+{"name":"get-shit-done-ios","keywords":["claude","claude-code","ai","meta-prompting","context-engineering","spec-driven-development","ios","swift","swiftui","xcode"],"version":"0.10.0","description":"A meta-prompting, context engineering and spec-driven development system for iOS development with Claude Code. iOS adaptation by the-andys, based on GSD by T+éCHES.","sanitized_name":"get-shit-done-ios","publisher":{"email":"yourhfdev@gmail.com","trustedPublisher":{"oidcConfigId":"oidc:441cca8f-4254-4b71-bc0e-1f8bb3a3bca0","id":"github"},"username":"the-andys"},"maintainers":[{"email":"yourhfdev@gmail.com","username":"the-andys"}],"license":"MIT","date":"2026-02-28T01:29:03.027Z","links":{"homepage":"https://github.com/the-andys/get-shit-done-ios","repository":"git+https://github.com/the-andys/get-shit-done-ios.git","bugs":"https://github.com/the-andys/get-shit-done-ios/issues","npm":"https://www.npmjs.com/package/get-shit-done-ios"}}
+
+,
+
+{"name":"gsd-mcp-server","keywords":["mcp","model-context-protocol","task-manager","productivity","claude","claude-desktop","anthropic","ai","llm","ai-assistant","eisenhower-matrix","todo","gtd","tasks","encryption","privacy","e2e-encryption"],"version":"0.7.0","description":"MCP server for GSD Task Manager - full task management with create/update/delete, analytics, interactive setup, and validation","sanitized_name":"gsd-mcp-server","publisher":{"email":"vscarpenter@gmail.com","username":"vscarpenter"},"maintainers":[{"email":"vscarpenter@gmail.com","username":"vscarpenter"}],"license":"MIT","date":"2026-01-09T22:15:15.798Z","links":{"homepage":"https://github.com/vscarpenter/gsd-taskmanager#readme","repository":"git+https://github.com/vscarpenter/gsd-taskmanager.git","bugs":"https://github.com/vscarpenter/gsd-taskmanager/issues","npm":"https://www.npmjs.com/package/gsd-mcp-server"}}
+
+,
+
+{"name":"@gsd-now/agent-pool","keywords":["agent","pool","task-queue","cli"],"version":"0.1.0","description":"Agent pool daemon for managing workers with file-based task dispatch.","sanitized_name":"@gsd-now/agent-pool","publisher":{"email":"robert.balicki@gmail.com","username":"rbalicki"},"maintainers":[{"email":"robert.balicki@gmail.com","username":"rbalicki"}],"license":"MIT","date":"2026-02-22T02:23:13.660Z","links":{"homepage":"https://github.com/rbalicki2/gsd#readme","repository":"git+https://github.com/rbalicki2/gsd.git","bugs":"https://github.com/rbalicki2/gsd/issues","npm":"https://www.npmjs.com/package/@gsd-now/agent-pool"}}
+]
+
+
