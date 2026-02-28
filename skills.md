@@ -6,15 +6,16 @@
 - Bootstrap (Windows): `scripts/bootstrap-agent-foundation.ps1`
 - Runtime: `npx skills@latest`
 - Command: `bash ./skills.sh`
+- Antigravity Pack: `npx -y antigravity-awesome-skills --path .agents/skills`
 
 ## Imported Skills
-- `vercel-labs/skills/find-skills`
 - `vercel-labs/agent-skills/web-design-guidelines`
 - `anthropics/skills/frontend-design`
-- `remotion-dev/skills/remotion-best-practices`
+- `anthropics/skills/mcp-builder`
+- `sickn33/antigravity-awesome-skills` (bulk install into `.agents/skills`)
 
 ## Action Contract
-- Discover skills with `npx -y skills@latest`
+- Discover skills with `npx -y skills`
 - Add new skill packages into `skills.sh`
 - Keep this file synchronized with every imported skill
 

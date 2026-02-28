@@ -44,12 +44,21 @@ if [ "$MEM_OK" -eq 0 ]; then
   echo "memclaude package not found in default registries from this environment"
 fi
 
-echo "[4/5] Importing skills.sh capabilities..."
+echo "[4/6] Importing skills.sh capabilities..."
 npx -y skills add vercel-labs/agent-skills --skill web-design-guidelines -y || true
 npx -y skills add anthropics/skills --skill frontend-design -y || true
 npx -y skills add anthropics/skills --skill mcp-builder -y || true
 
-echo "[5/5] Verifying command surface..."
+echo "[5/6] Installing Antigravity Awesome Skills pack..."
+if npx -y antigravity-awesome-skills --path .agents/skills; then
+  echo "Antigravity installed via npm registry package"
+elif npx -y github:sickn33/antigravity-awesome-skills --path .agents/skills; then
+  echo "Antigravity installed via github: fallback"
+else
+  echo "Antigravity install failed; continuing with base skills"
+fi
+
+echo "[6/6] Verifying command surface..."
 command -v ccpm || true
 command -v gsd || true
 command -v gsd-cli || true

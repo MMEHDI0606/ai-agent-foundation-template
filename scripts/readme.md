@@ -49,6 +49,12 @@ Created:
 
 Then wired verified `skills` imports (valid repo + skill names) using `npx skills`.
 
+Also integrated a large community skill pack from:
+
+- `https://github.com/sickn33/antigravity-awesome-skills`
+
+Installed through `npx antigravity-awesome-skills --path .agents/skills` with a GitHub fallback.
+
 ### 4) Cross-repo onboarding automation
 
 Created:
@@ -160,6 +166,7 @@ bash ./.bootstrap.sh
 gsd --help
 gsd-cli --help
 npx -y skills list
+Test-Path ./.agents/skills
 ```
 
 (`memclaude` may remain unresolved until a valid package source is provided.)
@@ -262,6 +269,16 @@ git status
 
 ## Troubleshooting
 
+### `npx antigravity-awesome-skills` returns 404
+
+Symptom:
+
+- npm registry lookup fails for antigravity package.
+
+Behavior:
+
+- bootstrap falls back to `npx -y github:sickn33/antigravity-awesome-skills --path .agents/skills`.
+
 ### `ccpm` canonical install fails
 
 Symptom:
@@ -310,6 +327,7 @@ Behavior:
 - `ccpm`: fallback clone path available when canonical endpoint is unstable.
 - `memclaude`: unresolved by default registries; probe-based failure handling in place.
 - `skills`: validated import/list workflow functioning.
+- `antigravity-awesome-skills`: integrated with registry + `github:` fallback installer.
 
 ---
 
@@ -335,6 +353,7 @@ powershell -ExecutionPolicy Bypass -File ./scripts/bootstrap-agent-foundation.ps
 gsd --help
 gsd-cli --help
 npx -y skills list
+Test-Path ./.agents/skills
 
 # 5) Open active planning state
 Get-Content ./.planning/current.md
@@ -407,11 +426,15 @@ pip install --user memclaude
 npx -y skills add vercel-labs/agent-skills --skill web-design-guidelines -y
 npx -y skills add anthropics/skills --skill frontend-design -y
 npx -y skills add anthropics/skills --skill mcp-builder -y
+npx -y antigravity-awesome-skills --path .agents/skills
+# fallback if registry package is unavailable
+npx -y github:sickn33/antigravity-awesome-skills --path .agents/skills
 
 # Verify
 gsd --help
 gsd-cli --help
 npx -y skills list
+Test-Path ./.agents/skills
 ```
 
 #### Optional ccpm install attempts

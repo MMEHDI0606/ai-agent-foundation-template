@@ -99,13 +99,24 @@ if (Test-Path $npmBin) {
   }
 }
 
-Write-Host "[4/5] Pulling skills ecosystem tools..."
+Write-Host "[4/6] Pulling skills ecosystem tools..."
 $npxCmd = "npx -y skills"
 Try-Command -Command "$npxCmd add vercel-labs/agent-skills --skill web-design-guidelines -y" | Out-Null
 Try-Command -Command "$npxCmd add anthropics/skills --skill frontend-design -y" | Out-Null
 Try-Command -Command "$npxCmd add anthropics/skills --skill mcp-builder -y" | Out-Null
 
-Write-Host "[5/5] Verifying command surface..."
+Write-Host "[5/6] Installing Antigravity Awesome Skills pack..."
+$antigravityInstalled = $false
+if (Try-Command -Command "npx -y antigravity-awesome-skills --path .agents/skills") {
+  $antigravityInstalled = $true
+} elseif (Try-Command -Command "npx -y github:sickn33/antigravity-awesome-skills --path .agents/skills") {
+  $antigravityInstalled = $true
+}
+if (-not $antigravityInstalled) {
+  Write-Host "Antigravity installer did not complete. Continue with base skills only." -ForegroundColor Yellow
+}
+
+Write-Host "[6/6] Verifying command surface..."
 foreach ($name in @('ccpm', 'gsd', 'gsd-cli', 'memclaude')) {
   $resolved = Get-Command $name -ErrorAction SilentlyContinue
   if ($null -ne $resolved) {
