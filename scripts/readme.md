@@ -216,10 +216,82 @@ Include ECC commands and skills into target `.claude`:
 powershell -ExecutionPolicy Bypass -File ./scripts/install-ecc.ps1 -Scope project -TechStacks typescript -InstallCommands -InstallSkills
 ```
 
+Use ECC for Python stack:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-ecc.ps1 -Scope project -TechStacks python -InstallCommands -InstallSkills
+```
+
+Use ECC for multi-language stack:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-ecc.ps1 -Scope project -TechStacks typescript,python,golang -InstallCommands -InstallSkills
+```
+
+After installation, use ECC commands in Claude Code (examples):
+
+```text
+/plan "add authentication"
+/code-review
+/tdd "implement password reset"
+```
+
+Verify ECC files are present:
+
+```powershell
+Test-Path ./.claude/rules/common
+Test-Path ./.claude/rules/typescript
+Test-Path ./.claude/commands
+Test-Path ./.claude/skills
+```
+
 Notes:
 
 - ECC rules are copied by directory (`common/` + language folders) to preserve relative references.
 - Source repo is cloned/updated under `.vendor/everything-claude-code`.
+
+### Step C.3 — Platform optimization (VS Code + Copilot + Claude)
+
+This template is optimized for **all three**, with different strengths:
+
+- **VS Code + GitHub Copilot Agent**: primary local execution path in this template (`.github/copilot-instructions.md`, `.planning/`, bootstrap scripts).
+- **Claude Code**: strongest support for ECC slash commands, rules, and skill workflows under `.claude/`.
+- **Cross-compatibility**: shared planning/state files (`.planning`, `claude.md`, `skills.md`) are agent-agnostic and work across both tools.
+
+Recommendation:
+
+- Use Copilot Agent for in-editor implementation loops.
+- Use Claude Code for ECC-native command/rules workflows.
+- Keep `.planning/current.md` as the single source of truth between both.
+
+### Step C.4 — Use ECC inside GitHub Copilot Agent mode with Claude models
+
+Prerequisites:
+
+- VS Code with GitHub Copilot Chat/Agent enabled.
+- Your Copilot plan/org must expose Claude models in the model picker.
+- ECC integrated via `install-ecc.ps1` (rules/commands/skills copied into `.claude/...`).
+
+Workflow:
+
+1. Open Copilot Chat in Agent mode.
+2. Select a Claude model from the model picker (for example Claude Sonnet, if available in your tenant).
+3. Start prompt with an ECC-style directive and explicit execution target.
+
+Prompt pattern:
+
+```text
+Use Everything Claude Code patterns from .claude/rules and .claude/skills.
+Follow /plan-style decomposition, then implement task-by-task.
+Before coding, read .planning/current.md and update plan state in your response.
+Task: <your task>
+```
+
+Important compatibility note:
+
+- ECC slash commands like `/plan` are native to Claude Code command runtime.
+- In Copilot Agent mode, use equivalent natural-language prompts that reference ECC assets in `.claude/`.
+- The behavior is still strong when Claude model + ECC rules/skills + `.planning` are used together.
 
 ### Step D — Configure Nexus for THIS repo (required)
 
