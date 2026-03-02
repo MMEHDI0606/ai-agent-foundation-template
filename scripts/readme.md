@@ -192,6 +192,35 @@ Preview mode (no install):
 powershell -ExecutionPolicy Bypass -File ./scripts/install-antigravity.ps1 -Preview
 ```
 
+### Step C.2 — Integrate Everything Claude Code (ECC)
+
+Reference source:
+
+- `https://github.com/affaan-m/everything-claude-code`
+
+Project-level rules only (recommended baseline):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-ecc.ps1 -Scope project -TechStacks typescript
+```
+
+Project + user-level rules:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-ecc.ps1 -Scope both -TechStacks typescript,python
+```
+
+Include ECC commands and skills into target `.claude`:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./scripts/install-ecc.ps1 -Scope project -TechStacks typescript -InstallCommands -InstallSkills
+```
+
+Notes:
+
+- ECC rules are copied by directory (`common/` + language folders) to preserve relative references.
+- Source repo is cloned/updated under `.vendor/everything-claude-code`.
+
 ### Step D — Configure Nexus for THIS repo (required)
 
 After sync/bootstrap, customize the template so it matches the current repository.

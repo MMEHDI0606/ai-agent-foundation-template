@@ -53,6 +53,7 @@ $fileMap = @{
 	'.github/copilot-instructions.md' = '.github/copilot-instructions.md'
 	'.claude/config.md' = '.claude/config.md'
 	'scripts/bootstrap-agent-foundation.ps1' = 'scripts/bootstrap-agent-foundation.ps1'
+	'scripts/install-ecc.ps1' = 'scripts/install-ecc.ps1'
 }
 
 foreach ($entry in $fileMap.GetEnumerator()) {
